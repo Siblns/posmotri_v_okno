@@ -9,9 +9,12 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 100%;
-  padding-top: 133px;
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -84,7 +87,7 @@ ol {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
-  line-height: 0.94em;
+  line-height: 0.93em;
   text-transform: uppercase;
 }
 
@@ -180,7 +183,7 @@ ol {
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 9px;
   border: none;
   padding: 0;
   color: #fff;
@@ -194,7 +197,7 @@ ol {
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  line-height: 1.375em;
+  line-height: 1em;
 }
 
 .search-form__submit-button {
@@ -235,8 +238,6 @@ ol {
 .search-form__label {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   cursor: pointer;
 }
