@@ -11,12 +11,12 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
+  padding-top: 133px;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  background-color: #1b1919;
-  
+  background-color: #1b1919;  
 }
 
 h1,
@@ -49,9 +49,6 @@ ol {
 }
 
 .content {
-  position: absolute;
-  top: 133px;
-  left: 30px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
