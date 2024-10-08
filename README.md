@@ -2,4 +2,4 @@
 ## Technology stack: HTML + CSS. 
 ### In this project I used new knowledge about styling buttons, forms and videos, reaction on mouse, keyboard.
 
-# [Posmotri_v_okno](https://github.com/Siblns/ono-tebe-nado.git)
+# [Posmotri_v_okno](https://github.com/Siblns/posmotri_v_okno.git)
